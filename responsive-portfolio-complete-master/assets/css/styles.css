@@ -188,10 +188,14 @@ img{
 }
 
 /*=== Show menu ===*/
-
+.show{
+  left: 0;
+}
 
 /*Active menu*/
-
+.active{
+  color: var(--text-color);
+}
 
 /*===== HOME =====*/
 
