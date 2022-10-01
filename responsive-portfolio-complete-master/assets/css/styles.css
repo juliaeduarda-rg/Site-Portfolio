@@ -221,6 +221,7 @@ img{
   height: max-content;
   text-align: center;
   padding-top: 1.25rem;
+  /*padding-top: 7rem;*/
 }
 
 .home__img{
