@@ -297,7 +297,24 @@ img{
   color: var(--first-color-lighten)
 }
 /* ===== ABOUT =====*/
+.about__container{
+  row-gap: 2rem;
+}
 
+.about__data{
+  text-align: center;
+}
+
+.about_description{
+  margin-bottom: var(--mb-4);
+}
+
+.about__img{
+  padding: 0;
+  width: 150%;
+  border-radius: .5rem;
+  margin: 0 auto;
+}
 
 /* ===== SKILLS =====*/
 
