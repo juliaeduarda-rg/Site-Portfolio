@@ -349,7 +349,56 @@ img{
   font-size: var(--small-font-size);
 }
 /* ===== SKILLS =====*/
+.skills__container{
+  row-gap: 2rem;
+}
 
+.skills__subtitle{
+  font-size: var(--h3-font-size);
+  color: var(--first-color-dark);
+  margin-bottom: var(--mb-2);
+}
+
+.skills__data{
+  position:relative;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 var(--mb-2);
+  margin-bottom: var(--mb-4);
+}
+
+.skills__name{
+  text-transform: uppercase;
+}
+
+.skills__bar{
+  position: absolute;
+  bottom: -.75rem;
+  height: .25rem;
+  background-color: var(--first-color);
+}
+
+.skills__Python{
+  width: 88%;
+}
+.skills__SQL{
+  width: 70%;
+}
+.skills__Power_BI{
+  width: 40%;
+}
+.skills__Tableu{
+  width: 60%;
+}
+.skills__Scikit-learn{
+  width: 58%;
+}
+.skills__Keras{
+  width: 0%;
+}
+.skills__Deep-learning{
+  width: 0%;
+}
 
 /* ===== EDUCATION =====*/
 
