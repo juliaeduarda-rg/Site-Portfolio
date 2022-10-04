@@ -4,7 +4,7 @@
 /*===== VARIABLES CSS =====*/
 :root{
   --header-height: 3rem;
-  --nav-widht: 324px;
+  --nav-width: 324px;
 
   
   /*===== Font weight =====*/
@@ -92,7 +92,7 @@ a{
 img{
   max-width: 100%;
   height: auto;
-  display: block;
+  display: block
 }
 /*===== CLASS CSS ===== */
 .section{
@@ -289,12 +289,12 @@ img{
   background-color: var(--first-color-dark);
 }
 
-.button_light{
+.button__light{
   background-color: var(--first-color-lighten);
   color: var(--first-color);
 }
 
-.button_light:hover{
+.button__light:hover{
   color: var(--first-color-lighten)
 }
 /* ===== ABOUT =====*/
@@ -504,8 +504,31 @@ img{
   color: var(--first-color-lighten);
 }
 /* ===== PROJECT IN MIND  =====*/
+.project{
+  background-color: var(--first-color);
+  padding-bottom: 0;
+}
 
+.project__container{
+  row-gap: 2rem;
+}
 
+.project__data{
+  text-align: center;
+}
+
+.project__title, .project__description{
+  color: var(--first-color-lighten)
+}
+
+.project__description{
+  margin-bottom: var(--mb-4);
+}
+
+.project__img{
+  width: 220px;
+  justify-items: center;
+}
 /* ===== WORKS =====*/
 
 
