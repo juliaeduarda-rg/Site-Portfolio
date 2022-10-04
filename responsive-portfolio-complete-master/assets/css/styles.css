@@ -221,7 +221,7 @@ img{
   height: max-content;
   text-align: center;
   padding-top: 1.25rem;
-  padding-top: 5rem;
+  padding-top: 6.5rem;
 }
 
 .home__img{
@@ -457,7 +457,7 @@ img{
 }
 /* ===== SERVICES =====*/
 .services__container{
-  row-gap: 2rem;
+  padding-bottom: 2rem;
 }
 
 .services__content{
