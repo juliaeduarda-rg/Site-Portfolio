@@ -1,6 +1,7 @@
 /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
+
 /*===== VARIABLES CSS =====*/
 :root{
   --header-height: 3rem;
@@ -19,6 +20,13 @@
   --text-color: #352622;
   --first-color-light: #EAE7E6;
   --first-color-lighten: #FFFAFA;
+
+  /* --first-color: #50a87d;
+  --first-color-dark: #2f7769;
+  --first-color-darken: #74c2b7;
+  --text-color: #d9e8eb;
+  --first-color-light: #EAE7E6;
+  --first-color-lighten: #263631; */
 
   /*===== Font and typography =====*/
   --body-font: 'Poppins', sans-serif;
@@ -176,7 +184,7 @@ img{
   top: 1rem;
   right: 1rem;
   font-size: 2rem;
-  color: var(--first-color-dark);
+  color: var(--text-color);
   cursor: pointer;
 }
 
@@ -197,7 +205,7 @@ img{
 }
 
 .nav__toggle{
-  color: var(--first-color-dark);
+  color: var(--text-color);
   font-size: 1.3rem;
   cursor: pointer;
 }
