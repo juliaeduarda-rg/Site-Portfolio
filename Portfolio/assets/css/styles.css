@@ -481,7 +481,7 @@ img{
 /* ===== PROJECT IN MIND  =====*/
 .project{
   background-color: var(--first-color);
-  padding-bottom: 0;
+  padding-bottom: 100px;
 }
 
 .project__container{
@@ -490,6 +490,8 @@ img{
 
 .project__data{
   text-align: center;
+  justify-self: center;
+  justify-items: center;
 }
 
 .project__title, .project__description{
@@ -500,9 +502,10 @@ img{
   margin-bottom: var(--mb-4);
 }
 
-.project__img{
+/* .project__img{
   width: 220px;
-}
+  position: relative;
+} */
 /* ===== WORKS =====*/
 .works__container{
   justify-items: center;
