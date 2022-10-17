@@ -617,6 +617,28 @@ img{
   font-size: var(--smaler-font-size);
   color: var(--text-color);
 }
+
+/* ===== LANGUAGE BUTTONS=====*/
+.language__container{
+  display: flex;
+ margin-left: 0;
+}
+
+.button__language{
+  background-color: var(--first-color);
+  color: var(--first-color-lighten);
+  padding: .4rem .5rem;
+  font-weight: var(--font-semi-bold);
+  border-radius: .5rem;
+  transition: .3s;
+  margin-left: 1rem;
+}
+
+.button__language:hover{
+  background-color: var(--first-color-light);
+  color: var(--first-color-dark);
+}
+
 /* ===== MEDIA QUERIES=====*/
 
 @media screen and (min-width: 768px){
