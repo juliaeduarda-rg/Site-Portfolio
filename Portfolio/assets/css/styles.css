@@ -21,12 +21,14 @@
   --first-color-light: #EAE7E6;
   --first-color-lighten: #FFFAFA;
 
-  /* --first-color: #50a87d;
-  --first-color-dark: #2f7769;
-  --first-color-darken: #74c2b7;
-  --text-color: #d9e8eb;
-  --first-color-light: #EAE7E6;
-  --first-color-lighten: #263631; */
+  /* dark-theme{
+    --first-color: #76a18d;
+    --first-color-dark: #246b5d;
+    --first-color-darken: #76a79f;
+    --text-color: #FFFAFA;
+    --first-color-light: #EAE7E6;
+    --first-color-lighten: #293a35;
+  } */
 
   /*===== Font and typography =====*/
   --body-font: 'Poppins', sans-serif;
@@ -551,7 +553,7 @@ img{
 
 .works__title{
   font-size: var(--h2-font-size);
-  color: var(--first-color-lighten);
+  color: var(--first-color-light);
 }
 
 .works__img:hover .works__data{
