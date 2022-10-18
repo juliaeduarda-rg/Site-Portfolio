@@ -621,7 +621,7 @@ img{
 /* ===== LANGUAGE BUTTONS=====*/
 .language__container{
   display: flex;
- margin-left: 0;
+  margin-left: -2rem;
 }
 
 .button__language{
