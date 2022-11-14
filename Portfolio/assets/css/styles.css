@@ -363,6 +363,14 @@ img{
   background-color: var(--first-color);
 }
 
+.skills__ETL{
+  width: 40%;
+}
+
+.skills__Github{
+  width: 40%;
+}
+
 .skills__Python{
   width: 88%;
 }
@@ -372,16 +380,25 @@ img{
 .skills__Power_BI{
   width: 40%;
 }
+
+.skills__Cloud{
+  width: 40%;
+}
+
+.skills__Java{
+  width: 40%;
+}
+
 .skills__Tableu{
   width: 60%;
 }
-.skills__Scikit-learn{
+.skills__Scala{
   width: 78%;
 }
-.skills__Keras{
+.skills__PySpark{
   width: 60%;
 }
-.skills__Deep-learning{
+.skills__AirFlow{
   width: 56%;
 }
 
@@ -554,6 +571,7 @@ img{
 .works__title{
   font-size: var(--h2-font-size);
   color: var(--first-color-light);
+  text-align: center;
 }
 
 .works__img:hover .works__data{
