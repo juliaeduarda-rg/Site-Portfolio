@@ -20,10 +20,10 @@
 
 <h2>🚦 Sessões:</h2>
 
-<h3>•Home:  <br>
-•Sobre mim: <br>
-•Habilidades: <br> 
-•Serviços: <br> 
-•Projetos: <br> 
-•Contatos: <br> 
+<h3>•Home  <br>
+•Sobre mim <br>
+•Habilidades <br> 
+•Serviços <br> 
+•Projetos <br> 
+•Contatos <br> 
 </h3>
