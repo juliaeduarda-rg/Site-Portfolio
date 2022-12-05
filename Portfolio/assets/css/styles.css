@@ -151,6 +151,8 @@ img{
   background-color: var(--first-color-lighten);
   box-shadow: 0 2px 4px rgba(0, 0, 0,.1);
 }
+
+
 /*===== NAV =====*/
 .nav{
   height: var(--header-height);
@@ -202,14 +204,18 @@ img{
   transition: .3s;
 }
 
-.nav__link:hover{
+.nav__link:hover, .bx:hover{
   color: var(--text-color);
 }
 
-.nav__toggle{
+.nav__toggle, .bx{
   color: var(--text-color);
   font-size: 1.3rem;
   cursor: pointer;
+}
+
+.bx{
+  color: var(--first-color-light);
 }
 
 /*=== Show menu ===*/
