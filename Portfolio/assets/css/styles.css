@@ -194,6 +194,8 @@ img{
 
 .nav__item{
   margin-bottom: var(--mb-4);
+  display: flex;
+  gap: .2rem
 }
 
 .nav__link{
@@ -214,8 +216,15 @@ img{
   cursor: pointer;
 }
 
+.nav__list{
+  position: relative;
+  align-items:center;
+}
+
 .bx{
   color: var(--first-color-light);
+  margin-top: .3rem;
+  
 }
 
 /*=== Show menu ===*/
